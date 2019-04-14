@@ -29,11 +29,15 @@ var dict = {
 	},
 	"mother-tongue":{
 		"fr":"Langue Maternelle",
-		"en":"Mother tongue"
+		"en":"Native speaker"
 	},
 	"september":{
 		"fr":"septembre",
 		"en":"september"
+	},
+	"april":{
+		"fr":"Avril",
+		"en":"April"
 	},
 	"vocabulary":{
 		"fr":"Bonne maîtrise du vocabulaire informatique",
