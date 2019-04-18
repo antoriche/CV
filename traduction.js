@@ -118,6 +118,14 @@ var dict = {
 	"emakina_content":{
 		"fr":"<li>Mémoire : \"Réalisation d'un outil permettant de tester le comportement d'une application via le protocole WebSocket\"</li><li>Développement d'une application ES6 utilisant Electron, React et Socket.IO</li></ul>",
 		"en":"<li>Thesis : \"Develop a tool to test an application behavior via WebSocket\"</li><li>Develop an ES6 application using Electron, React and Socket.IO</li></ul>"
+	},
+	"new_zealand":{
+		"fr":"Perfectionnement en Anglais",
+		"en":"English development"	
+	},
+	"new_zealand_content":{
+		"fr":"<li>Etude de l'anglais durant 3 mois à l'étranger à l'école LSNZ</li><li>Atteint le niveau intermédiaire suppérieur (B2)</li>",
+		"en":"<li>Studied English abroad for 3 months at LSNZ</li><li>Reached Upper-intermediate level (B2)</li>"	
 	}
 };
 

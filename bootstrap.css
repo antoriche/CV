@@ -8166,6 +8166,9 @@ a.text-dark:focus, a.text-dark:hover {
 .text-muted {
   color: #868e96 !important;
 }
+.text-muted *{
+  color: #868e96 !important;
+}
 
 .text-hide {
   font: 0/0 a;

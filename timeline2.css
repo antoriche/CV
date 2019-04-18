@@ -126,3 +126,6 @@
 .timeline-list li{
   margin-bottom: 10px;
 }
+.timeline-heading p{
+  white-space: nowrap;
+}
