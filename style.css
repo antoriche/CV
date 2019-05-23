@@ -64,7 +64,7 @@
 }
 @media print{
 	body {
-		zoom:65%;
+		zoom:130%;
 		margin:0;
 		padding: 0;
 	}
