@@ -45,7 +45,7 @@ var dict = {
 	},
 	"experience":{
 		"fr":"Parcours",
-		"en":"Education and Career"
+		"en":"Career"
 	},
 	"animator":{
 		"fr":"Animateur aux Jeunesses Scientifiques",
@@ -126,6 +126,14 @@ var dict = {
 	"new_zealand_content":{
 		"fr":"<li>Etude de l'anglais durant 3 mois à l'étranger à l'école LSNZ</li><li>Atteint le niveau intermédiaire suppérieur (B2)</li>",
 		"en":"<li>Studied English abroad for 3 months at LSNZ</li><li>Reached Upper-intermediate level (B2)</li>"	
+	},
+	"diplomes":{
+		"fr":"Diplômes",
+		"en":"Education"	
+	},
+	"bachelier_informatique_gestion":{
+		"fr":"Bachelier en informatique de gestion",
+		"en":"Bachelor in computer sciences"	
 	}
 };
 

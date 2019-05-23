@@ -63,9 +63,15 @@
 	cursor: pointer;
 }
 @media print{
+	body {
+		zoom:65%;
+		margin:0;
+		padding: 0;
+	}
 	#section_head h1{
 		font-size: 22px;
 		padding: 0px;
+		margin: 0;
 	}
 	#section_head div{
 		font-size: 12px;
@@ -75,6 +81,35 @@
 	}
 	.container *{
 		font-size: 12px;
+	}
+}
+.container{
+	page-break-inside:avoid;
+}
+#section_soft_skills ul{
+	list-style: none;
+	padding-left: 0px;
+	margin-top: 25px;
+}
+
+@media print{
+	#skill_part{
+		width: 100%;
+		padding: 0;
+		margin:0;
+	}
+	#skill_part > div{
+		width: 50%;
+	}
+	#section_soft_skills{
+		padding: 0px;
+		margin: 0px;
+	}
+	#section_soft_skills h2{
+		margin: 0px;
+		padding: 0px;
+		font-size: 20px;
+		font-family: var(--title-familly);
 	}
 }
 
@@ -94,9 +129,6 @@
 	margin-bottom: 30px;
 }
 
-#section_contact{
-
-}
 #section_contact h1{
 	font-size: 20px;
 	margin-bottom: 30px;
@@ -122,11 +154,8 @@
     padding-left: 15px;
     padding-right: 15px;
 	vertical-align: middle;
-}
-@media (min-width: 576px){
-	#section_contact li{
-		float: left;
-	}
+	float: left;
+	width: 45%;
 }
 
 #section_contact i{
