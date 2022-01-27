@@ -147,6 +147,19 @@ var dict = {
     fr: "Developpeur frontend chez Jetpack.AI",
     en: "Frontend developer at Jetpack.AI",
   },
+  jetpackai_content: {
+    fr: `
+    <li>Application de gestion - visualisation du chiffre d'affaire</li>
+    <li>Application de gestion de fraude</li>
+    <li>API pour le site d'un fournisseur d'energie</li>
+    <li>Application de visualisation de données statistique sur une carte en vue de justifier des investissements</li>
+    `,
+    en: `
+    <li>Management dashboard - Turnover vizualization</li>
+    <li>Fraud management application</li>
+    <li>API for an energy supplier website</li>
+    <li>Application for statistical data visualization on a map to justify investments</li>`,
+  },
 };
 
 var valid_languages = ["fr", "en"];
