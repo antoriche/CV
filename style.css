@@ -19,7 +19,7 @@
   color: var(--contrast-color);
   text-transform: uppercase;
 
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 .contrast {
@@ -33,7 +33,7 @@
   font-family: var(--title-familly);
   text-transform: uppercase;
 
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 30px;
 }
 
@@ -101,15 +101,23 @@
   #skill_part > div {
     width: 50%;
   }
+  #section_experience {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   #section_soft_skills {
     padding: 0px;
     margin: 0px;
   }
   #section_soft_skills h2 {
-    margin: 0px;
+    margin: 0px !important;
+    margin-top: 10px !important;
     padding: 0px;
     font-size: 20px;
     font-family: var(--title-familly);
+  }
+  #section_skills h1 {
+    margin-bottom: 10px !important;
   }
 }
 
@@ -206,6 +214,8 @@ a {
   }
   .noScreen {
   }
+  .grid-item {
+  }
 }
 
 @media print {
@@ -221,6 +231,24 @@ a {
   h1,
   h2 {
     font-weight: bold;
+  }
+  .cell {
+    /*padding: 20px;*/
+    padding: 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  .grid-item {
+  }
+  .skill {
+    font-size: 10px;
+  }
+  .skill .icon {
+    width: 15px;
+    height: 15px;
+  }
+  .grid {
+    grid-template-columns: repeat(3, 1fr) !important;
   }
 }
 
@@ -255,4 +283,9 @@ a {
 }
 .orange {
   background-color: #ff9900 !important;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
