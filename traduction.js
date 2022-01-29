@@ -1,7 +1,7 @@
 var dict = {
   dev: {
-    fr: "- Développeur -",
-    en: "- Developer -",
+    fr: "- Développeur Frontend -",
+    en: "- Frontend Developer -",
   },
   belgium: {
     fr: "Belgique",
@@ -80,7 +80,7 @@ var dict = {
     en: "High school graduate",
   },
   soft_skills: {
-    fr: "Compétences générales",
+    fr: "Caractère",
     en: "Soft skills",
   },
   autodidact: {
