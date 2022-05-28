@@ -85,6 +85,7 @@
 }
 .container {
   page-break-inside: avoid;
+  overflow-x: hidden;
 }
 #section_soft_skills ul {
   list-style: none;
@@ -344,12 +345,21 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
   gap: 15px;
-  height: 250px;
+}
+
+@media (max-width: 460px) {
+  #portfolio_content {
+    flex-direction: column;
+  }
 }
 
 .portfolio_item {
   display: block;
   height: 100%;
   filter: drop-shadow(3px 3px 3px #755);
+  max-width: 100%;
+  width: 250px;
+  aspect-ratio: initial;
 }
