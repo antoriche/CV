@@ -160,6 +160,10 @@ var dict = {
     <li>API for an energy supplier website</li>
     <li>Application for statistical data visualization on a map to justify investments</li>`,
   },
+  "marketing-mockup":{
+    fr: "Mockup marketing pour la sécurité des données",
+    en: "Marketing mockup for data privacy",
+  }
 };
 
 var valid_languages = ["fr", "en"];
