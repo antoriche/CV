@@ -85,7 +85,6 @@
 }
 .container {
   page-break-inside: avoid;
-  overflow-x: hidden;
 }
 #section_soft_skills ul {
   list-style: none;
@@ -352,6 +351,9 @@ a {
 @media (max-width: 460px) {
   #portfolio_content {
     flex-direction: column;
+  }
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
