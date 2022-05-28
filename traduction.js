@@ -140,8 +140,8 @@ var dict = {
     en: "Bachelor in computer sciences",
   },
   "aws-certification-description": {
-    fr: "Etude des bases d'AWS et de ses services.",
-    en: "Learned the basics of AWS and its services.",
+    fr: "Capacité à écrire et à déployer des applications basées sur le cloud.",
+    en: "Ability to write and deploy cloud-based applications.",
   },
   "jetpack-title": {
     fr: "Developpeur frontend chez Jetpack.AI",
