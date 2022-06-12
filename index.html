@@ -15,7 +15,9 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 	<script type="text/javascript" src="script.js"></script>
 	<script type="text/javascript" src="traduction.js"></script>
 
@@ -61,26 +63,19 @@
 			<div id="editor"></div>
 			<div class="noPrint">
 				<!--<a href="CV.pdf" target="_blank">-->
-				<button class="btn btn-outline-light" id="download" ><i class="fa fa-print"></i> <span traduction="download" onclick="print()">Imprimer</span></button>
-				<!--</a>-->
+					<!--<button class="btn btn-outline-light action-btn" ><i class="fa fa-print"></i> <span traduction="download" onclick="print()">Imprimer</span></button>-->
+					<button class="btn btn-outline-light action-btn" ><i class="fa fa-briefcase"></i> <a href="https://antoriche.github.io/CV/portfolio" style="color:white" traduction="portfolio">See my Portfolio</a></button>
+					<!--</a>-->
 			</div>
 			<div class="noScreen">
 				<br>
-				<button class="btn btn-outline-dark"><a>antoriche.github.io/CV</a></button>
-			</div>
-		</div>
-		<div class="noPrint" id="portfolio">
-			<h3>Portfolio</h3>
-			<div id="portfolio_content">
-				<a target="_blank" href="https://jetpack.ai/portfolio-item/innovative-approach/">
-					<img class="portfolio_item"  src="portfolio/resa.png" />
-				</a>
-				<a target="_blank" href="https://jetpack.ai/portfolio-item/case-study-2/">
-					<img class="portfolio_item"  src="portfolio/tarmak.png" />
-				</a>
-			</div>
-			<div>
-				<small>* <span traduction="marketing-mockup">Mockup marketing pour la sécurité des données</span></small>
+				<button class="btn btn-outline-dark">
+					<a href="https://antoriche.github.io/CV/portfolio">
+						<img src="qr.png" alt="qr code" width="80px"/>
+						<br>
+						antoriche.github.io/CV/portfolio
+					</a>
+				</button>
 			</div>
 		</div>
 	</div>
@@ -100,7 +95,7 @@
 						<b class="skill"> <img src="icons/d3.png" class="icon greyOnPrint" /> d3.js</b>
 					</div>
 					<div class="grid-item cell">
-						<b class="skill"> <img src="icons/antd.svg" class="icon greyOnPrint" /> Ant design</b>
+						<b class="skill"> <img src="icons/graphql.png" class="icon greyOnPrint" /> GraphQL</b>
 					</div>
 					<div class="grid-item cell">
 						<b class="skill"> <img src="icons/react.png" class="icon greyOnPrint" /> React</b>
@@ -217,10 +212,9 @@
 					<div class="timeline-body">
 						<p>
 							<ul class="timeline-list" traduction="jetpackai_content">
-								<li>Application de management - visualisation du chiffre d'affaire</li>
-								<li>Application de gestion de fraude - analyse comportemental</li>
-								<li>API pour le site d'un fournisseur d'energie</li>
-								<li>Application de visualisation de données statistique sur une carte en vue de justifier des investissements</li>
+								<li>Responsable de developper des applications de visualisation des données</li>
+								<li>Exploitation des données de nos clients pour faire ressortir leurs valeurs</li>
+								<li>Création de graphique SVG sur mesures (d3.js)</li>
 							</ul>
 						</p>
 					</div>

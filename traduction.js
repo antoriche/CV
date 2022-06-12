@@ -149,20 +149,23 @@ var dict = {
   },
   jetpackai_content: {
     fr: `
-    <li>Application de gestion - visualisation du chiffre d'affaire</li>
-    <li>Application de gestion de fraude</li>
-    <li>API pour le site d'un fournisseur d'energie</li>
-    <li>Application de visualisation de données statistique sur une carte en vue de justifier des investissements</li>
+    <li>Responsable de developper des applications de visualisation des données</li>
+		<li>Exploitation des données de nos clients pour faire ressortir leurs valeurs</li>
+		<li>Création de graphique SVG sur mesures (d3.js)</li>
     `,
     en: `
-    <li>Management dashboard - Turnover vizualization</li>
-    <li>Fraud management application</li>
-    <li>API for an energy supplier website</li>
-    <li>Application for statistical data visualization on a map to justify investments</li>`,
+    <li>In charge to develop data-driven applications</li>
+    <li>Bringing value to our customers data</li>
+    <li>Designing custom SVG charts (d3.js)</li>
+    `,
   },
   "marketing-mockup":{
     fr: "Mockup marketing pour la sécurité des données",
     en: "Marketing mockup for data privacy",
+  },
+  "portfolio":{
+    fr: "Voir mon Portfolio",
+    en: "See my Portfolio",
   }
 };
 

@@ -38,7 +38,7 @@
 }
 
 #section_head {
-  padding: 60px;
+  padding: 40px;
 }
 
 #section_head a {
@@ -58,7 +58,7 @@
   font-size: 20px;
   font-family: Avantgarde;
 }
-#download {
+.action-btn {
   margin-top: 20px;
   cursor: pointer;
 }
@@ -76,7 +76,7 @@
   #section_head div {
     font-size: 12px;
   }
-  #download {
+  .action-btn {
     font-size: 12px;
   }
   .container * {
