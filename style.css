@@ -6,7 +6,9 @@
 
   --title-familly: Arial;
 }
-
+a:hover{
+  color: inherit;
+}
 .primary {
   background-color: var(--primary-color);
   color: var(--contrast-color2);
