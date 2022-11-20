@@ -75,6 +75,9 @@ a:hover{
     padding: 0px;
     margin: 0;
   }
+  #section_head {
+    padding: 30px;
+  }
   #section_head div {
     font-size: 12px;
   }
