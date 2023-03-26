@@ -149,13 +149,13 @@ var dict = {
   },
   jetpackai_content: {
     fr: `
-    <li>Responsable de developper des applications de visualisation des données</li>
-		<li>Exploitation des données de nos clients pour faire ressortir leurs valeurs</li>
-		<li>Création de graphique SVG sur mesures (d3.js)</li>
+    <li>Developpement de solutions datascience</li>
+    <li>Responsable de developper des applications de visualisation pour apporter de la valeur aux données de nos clients</li>
+    <li>Création de graphique SVG sur mesures (d3.js)</li>
     `,
     en: `
-    <li>In charge to develop data-driven applications</li>
-    <li>Bringing value to our customers data</li>
+    <li>Developing datascience solutions</li>
+    <li>In charge of developing visualization applications to add value to our customers' data</li>
     <li>Designing custom SVG charts (d3.js)</li>
     `,
   },
