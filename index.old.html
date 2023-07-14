@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Antonin Riche</title>
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="timeline2.css">
+
+    <!-- Bootstrap -->
+	<link rel="stylesheet" href="bootstrap.css">
+	<link rel="stylesheet" href="icon.css">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="traduction.js"></script>
+	<script src="https://cdn.lr-in-prod.com/LogRocket.min.js" crossorigin="anonymous"></script>
+	<script src="./tracking.js"></script>
+</head>
+<body id="body">
+	<!--<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+			<a class="navbar-brand" href="#">Antonin Riche</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarToggler">
+			<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			  <li class="nav-item">
+			    <a class="nav-link" href="#">Compétences</a>
+			  </li>
+			</ul>
+		</div>
+	</nav>-->
+	<div class="container-fluid primary" id="section_head">
+		<div class="pull-right row noPrint">
+			<select class="form-control" id="lang_field">
+				<option value="fr">FR</option>
+				<option value="en">EN</option>
+			</select>
+		</div>
+		<div class="container">
+			<img src="id.jpg" class="image-circle">
+			<h1>Antonin Riche</h1>
+			<h2 traduction="dev">- Frontend Développeur -</h2>
+			<div>
+					<a href="mailto:antoriche.ar@gmail.com" ><i class="fa fa-envelope-o"></i> antoriche.ar@gmail.com</a><br>
+					<a href="tel:+32489311126" ><i class="fa fa-phone"></i> +32 489 31 11 26</a>
+			</div>
+			<br>
+			<div>
+				Avenue Général Médecin Derache, 65<br>
+				1050 Ixelles – <span traduction="belgium">Belgique</span><br/>
+				<strong>Open for relocation</strong>
+			</div>
+
+			<div id="editor"></div>
+			<div class="noPrint">
+				<!--<a href="CV.pdf" target="_blank">-->
+					<!--<button class="btn btn-outline-light action-btn" ><i class="fa fa-print"></i> <span traduction="download" onclick="print()">Imprimer</span></button>-->
+					<button class="btn btn-outline-light action-btn" ><i class="fa fa-briefcase"></i> <a href="https://antoriche.github.io/CV/portfolio" style="color:white" traduction="portfolio">See my Portfolio</a></button>
+					<!--</a>-->
+			</div>
+			<div class="noScreen">
+				<br>
+				<button class="btn btn-outline-dark">
+					<a href="https://antoriche.github.io/CV/portfolio">
+						<img src="qr.png" alt="qr code" width="80px"/>
+						<br>
+						antoriche.github.io/CV/portfolio
+					</a>
+				</button>
+			</div>
+		</div>
+	</div>
+
+	<div id="skill_part" class="row">
+		<div class="container-fluid contrast" id="section_skills">
+			<div class="container" style="padding-left: 0px;">
+				<h1 traduction="skills">Compétences</h1>
+				<div class="grid">
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/html.png" class="icon greyOnPrint" /> HTML</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/typescript.png" class="icon greyOnPrint" /> Typescript</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/d3.png" class="icon greyOnPrint" /> d3.js</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/graphql.png" class="icon greyOnPrint" /> GraphQL</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/react.png" class="icon greyOnPrint" /> React</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/redux.png" class="icon greyOnPrint" /> Redux</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/aws.png" class="icon greyOnPrint" /> AWS</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/postgres.png" class="icon greyOnPrint" /> SQL</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/nodejs.png" class="icon greyOnPrint" /> NodeJS</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/serverless.png" class="icon greyOnPrint" /> serverless</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/python.png" class="icon greyOnPrint" /> Python</b>
+					</div>
+					<div class="grid-item cell">
+						<b class="skill"> <img src="icons/pulumi.png" class="icon greyOnPrint" /> Pulumi</b>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="container-fluid primary" id="section_soft_skills">
+			<div class="container">
+				<h2 traduction="soft_skills" >Compétences générales</h2>
+				<ul>
+					<li traduction="autodidact">Autodidacte</li>
+					<li traduction="curious">Curieux, aime découvrir de nouvelles technologies</li>
+					<li traduction="persistent" >Persévérant</li>
+					<li traduction="reliable">Fiable et capable de respecter les délais</li>
+					<li traduction="challenge">Aime les défis</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid contrast" id="section_experience">
+		<div class="container">
+			<h1 traduction="diplomes">Diplômes</h1>
+			<ul class="timeline">
+					<li>
+						<div class="timeline-badge orange" ><a target="_blank" href="https://aws.amazon.com/certification/certified-developer-associate/?nc1=h_ls"><i class="fa fa-cloud"></i></a></div>
+						<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4 class="timeline-title"><a target="_blank" href="https://aws.amazon.com/certification/certified-developer-associate/?nc1=h_ls">AWS Certified Developer - Associate</a></h4>
+							<p><small class="text-muted"><i class="fa fa-calendar"></i> 2020
+							<span class="space"></span>
+							<i class="fa fa-map-marker"></i> <span traduction="brussels">Bruxelles</span></small></p>
+						</div>
+						<div class="timeline-body">
+							<p>
+								<ul class="timeline-list">
+									<li traduction="aws-certification-description">Capacité à écrire et à déployer des applications basées sur le cloud</li>
+								</ul>
+							</p>
+						</div>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-badge info" ><a target="_blank" href="https://lsnz.co.nz/"><i class="fa fa-language"></a></i></div>
+						<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4 class="timeline-title" ><a target="_blank" href="https://lsnz.co.nz/" traduction="new_zealand">Perfectionnement en Anglais</a></h4>
+							<p><small class="text-muted"><i class="fa fa-calendar"></i> 2019 
+								<span class="space"></span>
+							<i class="fa fa-map-marker"></i> <span>New Zealand</span></small></p>
+						</div>
+						<div class="timeline-body">
+							<p>
+								<ul class="timeline-list" traduction="new_zealand_content"><li>Etude de l'anglais durant 3 mois à l'étranger</li><li>Atteint le niveau intermédiaire suppérieur (B2)</li></ul>
+							</p>
+						</div>
+						</div>
+					</li>
+					<li>
+						<div class="timeline-badge success"><a target="_blank" href="https://www.vinci.be/en/studies/business-informatics"><i class="fa fa-graduation-cap"></i></a></div>
+						<div class="timeline-panel">
+						<div class="timeline-heading">
+							<h4 class="timeline-title" ><a target="_blank" href="https://www.vinci.be/en/studies/business-informatics"><span traduction="bachelier_informatique_gestion">Bachelier en informatique de gestion</span><br/><small traduction="ipl">Institut Paul Lambin</small></a></h4>
+							<p><small class="text-muted"><i class="fa fa-calendar"></i> 2015 - 2018
+							<span class="space"></span>
+							<i class="fa fa-map-marker"></i> <span traduction="brussels">Bruxelles</span></small></p>
+						</div>
+						<div class="timeline-body">
+							<p>
+								<ul class="timeline-list" traduction="ipl_content"><li>Formation à la programmation en Java, Javascript, PHP, SQL et C</li><li>Développement d'applications Client - Serveur</li><li>Développement de sites Web en PHP</li><li>Réalisation d'applications Android</li></ul>
+							</p>
+						</div>
+						</div>
+					</li>
+			</ul>
+		</div>
+
+		<div class="container">
+			<h1 traduction="experience">Parcours</h1>
+
+			<ul class="timeline">
+				<li>
+					<div class="timeline-badge bg-white" ><a target="_blank" href="https://jetpack.ai/"><img class="greyOnPrint" style="margin-top: -5px;" width=40 src="images/jetpackai.png" /></a></div>
+					<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title"><a target="_blank" traduction="jetpack-title" href="https://jetpack.ai/">Developpeur frontend chez Jetpack.AI</a></h4>
+						<p><small class="text-muted"><i class="fa fa-calendar"></i> 2019 - now</span>
+						<span class="space"></span>
+						<i class="fa fa-map-marker"></i> <span traduction="brussels">Bruxelles</span></small></p>
+					</div>
+					<div class="timeline-body">
+						<p>
+							<ul class="timeline-list" traduction="jetpackai_content">
+								<li>Developpement de solutions datascience</li>
+								<li>Responsable de developper des applications de visualisation pour apporter de la valeur aux données de nos clients</li>
+								<li>Création de graphique SVG sur mesures (d3.js)</li>
+							</ul>
+						</p>
+					</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-badge black" ><a target="_blank" href="https://www.emakina.com/en-be"><img class="invertColorOnPrint greyOnPrint" style="margin-top: -5px;" width=40 src="images/emakina.png" /></a></div>
+					<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title"  ><a target="_blank" href="https://www.emakina.com/en-be" traduction="emakina">Stage chez Emakina</a></h4>
+						<p><small class="text-muted"><i class="fa fa-calendar"></i> 2018
+						<span class="space"></span>
+						<i class="fa fa-map-marker"></i> <span traduction="brussels">Bruxelles</span></small></p>
+					</div>
+					<div class="timeline-body">
+						<p>
+							<ul class="timeline-list" traduction="emakina_content"><li>Mémoire : "Réalisation d'un outil permettant de tester le comportement d'une application via le protocole WebSocket"</li><li>Développement d'une application ES6 utilisant Electron, React et Socket.IO</li></ul>
+						</p>
+					</div>
+					</div>
+				</li>
+				<li>
+					<div class="timeline-badge pink"><a target="_blank" href="https://www.jsb.be"><img class="greyOnPrint" style="margin-top: -5px;" width=40 src="images/jsb.png" /></a></div>
+					<div class="timeline-panel">
+					<div class="timeline-heading">
+						<h4 class="timeline-title"><a target="_blank" href="https://www.jsb.be" traduction="animator">Animateur aux Jeunesses Scientifiques</a></h4>
+						<p><small class="text-muted"><i class="fa fa-calendar"></i> 2013 - 2019
+							<span class="space"></span>
+						<i class="fa fa-map-marker"></i> <span traduction="brussels">Bruxelles</span></small></p>
+					</div>
+					<div class="timeline-body">
+						<p>
+							<ul class="timeline-list" traduction="animator_content"><li>Enseignement ludique des bases de la programmation à des jeunes de 12 à 18 ans</li><li><small>(Camps d'été, activités extra-scolaires ...)</small></li></ul>
+						</p>
+					</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container-fluid primary" id="section_langue">
+		<div class="container">
+			<h1 traduction="languages" >Langues</h1>
+			<div class="noPrint" id="languages_screen">
+				<div class="row cell">
+					<div class="col-sm-2">
+						<span traduction="french" >Français</span>
+					</div>
+					<div class="col-sm-10">
+						<div class="progress">
+								<div class="progress-bar" role="progressbar" style="width: 100%; background-color: gray;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+									<b traduction="mother-tongue">Langue Maternelle</b>
+								</div>
+						</div>
+					</div>
+				</div>
+				<div class="row cell">
+					<div class="col-sm-2" >
+						<span traduction="english" >Anglais</span>
+					</div>
+					<div class="col-sm-10">
+						<div class="progress">
+								<div class="progress-bar" role="progressbar" style="width: 65%;background-color: gray;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+									<b>Upper-intermediate</b>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="noPrint languages_print" id="languages_print">
+				<center>
+					<table>
+						<tr>
+							<td><b><span traduction="french" >Français</span></b></td>
+							<td><b><span traduction="english" >Anglais</span></b></td>
+						</tr>
+						<tr>
+							<td><span traduction="mother-tongue" >Langue Maternelle</span></td>
+							<td>Upper-intermediate</td>
+						</tr>
+					</table>
+				</center>
+			</div>
+			<div class="noScreen languages_print">
+				<center>
+					<table>
+						<tr>
+							<td><b><span traduction="french" >Français</span></b></td>
+							<td><b><span traduction="english" >Anglais</span></b></td>
+						</tr>
+						<tr>
+							<td><span traduction="mother-tongue" >Langue Maternelle</span></td>
+							<td>Upper-intermediate</td>
+						</tr>
+					</table>
+				</center>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid contrast" id="section_contact">
+		<div class="container">
+			<h1>Contact</h1>
+				<!--<div class="noPrint">
+					<form>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="contact_name">Nom : </label>
+									<input type="text" class="form-control" id="contact_name" aria-describedby="name" placeholder="Votre nom">
+								</div>
+								<div class="form-group">
+									<label for="contact_email">Email : </label>
+									<input type="email" class="form-control" id="contact_email" aria-describedby="email" placeholder="Votre email">
+								</div>
+								<button class="btn btn-outline-light" id="sendButon">Envoyer</button>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="contact_message">Message : </label>
+									<textarea class="form-control" id="contact_message" rows="10"></textarea>
+								</div>
+							</div>
+						</div>
+					</form>
+					<hr>
+				</div>-->
+			<center>
+				<ul>
+					<li><a href="mailto:antoriche.ar@gmail.com"><i class="fa fa-envelope-o"></i> antoriche.ar@gmail.com</li>
+					<li><a href="tel:+32489311126"><i class="fa fa-phone"></i> +32 489 31 11 26</li>
+					<li><a href="https://www.linkedin.com/in/antonin-riche-a62b97145/"><i class="fa fa-linkedin-square"></i> Antonin Riche</a></li>
+				</ul>
+			</center>
+		</div>
+		<!--<hr>-->
+	</div>
+
+
+</body>
+</html>

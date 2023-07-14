@@ -1,0 +1,118 @@
+{
+  "skills": [
+    {
+      "name": "TypeScript",
+      "level": 10,
+      "category": "Development"
+    },
+    {
+      "name": "NodeJS",
+      "level": 10,
+      "category": "Development"
+    },
+    {
+      "name": "React",
+      "level": 10,
+      "category": "Development"
+    },
+    {
+      "name": "Serverless",
+      "level": 9,
+      "category": "DevOps"
+    },
+    {
+      "name": "AWS",
+      "level": 9,
+      "category": "DevOps"
+    },
+    {
+      "name": "Python",
+      "level": 7,
+      "category": "Data Science"
+    },
+    {
+      "name": "Pulumi",
+      "level": 7,
+      "category": "DevOps"
+    },
+    {
+      "name": "JavaScript",
+      "level": 7,
+      "category": "Development"
+    },
+    {
+      "name": "Redux",
+      "level": 6,
+      "category": "Development"
+    },
+    {
+      "name": "ObservableHQ",
+      "level": 6,
+      "category": "Data Science"
+    },
+    {
+      "name": "D3",
+      "level": 6,
+      "category": "Data Science"
+    },
+    {
+      "name": "SQL",
+      "level": 6,
+      "category": "Data Science"
+    },
+    {
+      "name": "REST",
+      "level": 4,
+      "category": "Development"
+    },
+    {
+      "name": "GraphQL",
+      "level": 4,
+      "category": "Development"
+    },
+    {
+      "name": "Docker",
+      "level": 4,
+      "category": "DevOps"
+    },
+    {
+      "name": "Terraform",
+      "level": 4,
+      "category": "DevOps"
+    },
+    {
+      "name": "Agile",
+      "level": 4
+    },
+    {
+      "name": "Git",
+      "level": 4,
+      "category": "DevOps"
+    },
+    {
+      "name": "HTML",
+      "level": 3,
+      "category": "Development"
+    },
+    {
+      "name": "CSS",
+      "level": 3,
+      "category": "Development"
+    },
+    {
+      "name": "Jest",
+      "level": 3,
+      "category": "Development"
+    },
+    {
+      "name": "Unix",
+      "level": 3,
+      "category": "DevOps"
+    },
+    {
+      "name": "PWA",
+      "level": 3,
+      "category": "DevOps"
+    }
+  ]
+}
