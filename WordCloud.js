@@ -2,6 +2,7 @@
 
 import * as d3 from "d3";
 import d3Cloud from "d3-cloud";
+import seedrandom from "seedrandom";
 
 export function WordCloud(
   text,
@@ -45,6 +46,7 @@ export function WordCloud(
     .attr("transform", `translate(${marginLeft},${marginTop})`);
 
   const cloud = d3Cloud()
+    .random(() => seedrandom("2")())
     .size([width - marginLeft - marginRight, height - marginTop - marginBottom])
     .words(data)
     .padding(padding)

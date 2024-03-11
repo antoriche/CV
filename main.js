@@ -14,6 +14,7 @@ const wordcloud = WordCloud(data.skills, {
   word: (d) => d.name,
   size: (d) => d[0].level / 10,
   color: (d) => colorScale(d.category),
+  padding: 1,
   marginTop: 0,
   marginRight: 0,
   marginBottom: 0,
@@ -24,7 +25,6 @@ const wordcloud = WordCloud(data.skills, {
   fontScale: 20,
 });
 
-console.log(wordcloud);
 document.querySelector("#wordcloud").appendChild(wordcloud);
 const legend = document.createElement("div");
 legend.setAttribute("class", "legend");
